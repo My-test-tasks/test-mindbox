@@ -2,13 +2,13 @@
 
 ![image](https://github.com/My-test-tasks/test-mindbox/assets/71071594/2d343c32-aac2-46ab-a905-e075c5275d97)
 
-## Getting Started
+## Вступление
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+Проект собран при помощи [Vite](https://vitejs.dev/).
 
-## Available Scripts
+## Доступные скрипты
 
-In the project directory, you can run:
+В каталоге проекта вы можете запустить:
 
 ### `npm run start`
 
@@ -16,16 +16,25 @@ In the project directory, you can run:
 
 ### `npm run dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+Запускает приложение в режиме разработки.\
+Откройте [http://localhost:5173](http://localhost:5173), чтобы просмотреть его в браузере.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Страница будет перезагружена после внесения изменений.\
+Вы также можете увидеть любые ошибки линтера в консоли.
 
 ### `npm run build`
 
-Builds the app for production to the `dist` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Создает `production` версию приложения в папке `dist`.\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Сборка минимизирована, а имена файлов включают хэши.\
+Приложение готово к развертыванию!
+
+### `npm run test`
+
+Запуск тестов
+
+### `npm run test:coverage`
+
+Запуск тестов с проверкой покрытия файлов
+
+![image](https://github.com/My-test-tasks/test-mindbox/assets/71071594/0dcdcb79-add5-41b8-b8ae-5a0a55a304d3)
