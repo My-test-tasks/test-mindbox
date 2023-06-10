@@ -1,10 +1,18 @@
-# Getting Started
+# TODO APP
+
+![image](https://github.com/My-test-tasks/test-mindbox/assets/71071594/2d343c32-aac2-46ab-a905-e075c5275d97)
+
+## Getting Started
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run start`
+
+### or
 
 ### `npm run dev`
 
