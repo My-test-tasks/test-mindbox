@@ -24,10 +24,10 @@ const Task: FC<TaskProps> = ({ task }) => {
   };
 
   return (
-    <Stack direction='row' alignItems='center' spacing={2} sx={styles}>
+    <Stack direction='row' alignItems='center' spacing={2} sx={styles} data-testid='task'>
       <Checkbox onChange={onChangeHandler} checked={task.completed} />
       <Typography sx={{ width: '100%' }}>{task.text}</Typography>
-      <IconButton onClick={deleteHandler}>
+      <IconButton onClick={deleteHandler} data-testid='delete'>
         <DeleteIcon />
       </IconButton>
     </Stack>
